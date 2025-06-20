@@ -5,4 +5,4 @@ def bubble_sort(unsorted_list):
                 unsorted_list[j], unsorted_list[j + 1] = unsorted_list[j + 1], unsorted_list[j]
     return unsorted_list
 
-
+print(bubble_sort([4, 5, 3, 4]))
